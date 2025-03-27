@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟 Hackathon Tamasha! 🚀</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #FFF7E0, #FFD54F);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: rgba(255,255,255,0.8);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #FF4500;
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .header p {
+            color: #FF1493;
+            font-size: 1.2rem;
+        }
+
+        .leaderboard, .hall-of-fame {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: 4px solid #FFD700;
+        }
+
+        .leaderboard h2, .hall-of-fame h2 {
+            text-align: center;
+            color: #FF4500;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #FFF7E0;
+            color: #FF4500;
+        }
+
+        tr:nth-child(even) {
+            background-color: #FFF7E0;
+        }
+
+        tr:hover {
+            background-color: #FFE4B5;
+        }
+
+        .notes {
+            background-color: #FFF0F5;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .loader {
+            text-align: center;
+            font-size: 3rem;
+            margin-top: 50px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div id="loader" class="loader">🎬</div>
+    <div id="content" style="display:none;" class="container">
+        <div class="header">
+            <h1>🌟 Hackathon Tamasha! 🚀</h1>
+            <p>Where Code Meets Creativity! 💻✨</p>
+        </div>
+
+        <div id="leaderboard" class="leaderboard">
+            <h2>Current Leaderboard 📊</h2>
+            <table id="leaderboardTable">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Project</th>
+                        <th>Stars ⭐</th>
+                        <th>CI/CD Status</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboardBody">
+                    <!-- Rows will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="hallOfFame" class="hall-of-fame">
+            <h2>Hall of Fame 🏆</h2>
+            <table id="hallOfFameTable">
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Year</th>
+                        <th>Winning Project</th>
+                    </tr>
+                </thead>
+                <tbody id="hallOfFameBody">
+                    <!-- Rows will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="notes">
+            <p>🏆 Win 100$ by passing CI/CD and getting the most stars by the 14th! 💰</p>
+            <p>🕰️ Leaderboard updates daily at 20:00 London time</p>
+            <p>💸 Instant payment on the day of victory!</p>
+        </div>
+    </div>
+
+    <script>
+        // Simulated data fetch function
+        function fetchData() {
+            // Simulating an API call with setTimeout
+            setTimeout(() => {
+                const leaderboardData = [
+                    { rank: 1, projectName: "Disco Data Dancer 💃", stars: 250, cicdStatus: true },
+                    { rank: 2, projectName: "Chai Machine Learning 🍵", stars: 210, cicdStatus: true },
+                    { rank: 3, projectName: "Bollywood Backend Beats 🎵", stars: 180, cicdStatus: false }
+                ];
+
+                const hallOfFameData = [
+                    { month: "January", year: 2024, projectName: "Masala Code Machine 🌶️" },
+                    { month: "February", year: 2024, projectName: "Taj Mahal Tech 🏰" }
+                ];
+
+                // Populate leaderboard
+                const leaderboardBody = document.getElementById('leaderboardBody');
+                leaderboardData.forEach(entry => {
+                    const row = `
+                        <tr>
+                            <td>${entry.rank}</td>
+                            <td>${entry.projectName}</td>
+                            <td>${entry.stars}</td>
+                            <td>${entry.cicdStatus ? '✅ Passed' : '❌ Not Passed'}</td>
+                        </tr>
+                    `;
+                    leaderboardBody.innerHTML += row;
+                });
+
+                // Populate Hall of Fame
+                const hallOfFameBody = document.getElementById('hallOfFameBody');
+                hallOfFameData.forEach(entry => {
+                    const row = `
+                        <tr>
+                            <td>${entry.month}</td>
+                            <td>${entry.year}</td>
+                            <td>${entry.projectName}</td>
+                        </tr>
+                    `;
+                    hallOfFameBody.innerHTML += row;
+                });
+
+                // Hide loader, show content
+                document.getElementById('loader').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+            }, 1000);
+        }
+
+        // Call data fetch on page load
+        window.onload = fetchData;
+    </script>
+</body>
+</html>
