@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Mush
-        run: curl -fsSL https://get.javanile.org/mush | sh && cp ~/.mush/bin/mush ~/.local/bin/
+        run: curl -fsSL https://get.javanile.org/mush | sh 
+             && mkdir -p ~/.local/bin/ && cp ~/.mush/bin/mush ~/.local/bin/
 
       - name: Verify Mush installation
         run: mush --version
