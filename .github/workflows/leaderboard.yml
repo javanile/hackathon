@@ -1,0 +1,24 @@
+name: Leaderboard
+
+on:
+  schedule:
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Update Traffic'
+        default: 'Update'
+        required: true
+
+jobs:
+  leaderboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout Traffic'
+        uses: actions/checkout@v4
+      - name: 'Update Traffic'
+        run: bash scripts/generate-leaderboard.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: 'Commit Changes'
+        uses: stefanzweifel/git-auto-commit-action@v4
