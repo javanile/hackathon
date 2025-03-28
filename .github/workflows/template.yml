@@ -1,4 +1,4 @@
-name: template
+name: Build
 
 on:
   push:
