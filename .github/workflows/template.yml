@@ -9,7 +9,7 @@ env:
   HACKATHON_PACKAGE_NAME: console
 
 jobs:
-  hackathon:
+  hackathon(template):
     runs-on: ubuntu-latest
     steps:
       - name: Install Mush

@@ -9,7 +9,7 @@ env:
   HACKATHON_PACKAGE_NAME: matrix-theme
 
 jobs:
-  hackathon:
+  hackathon(francescobianco/matrix-theme):
     runs-on: ubuntu-latest
     steps:
       - name: Install Mush
