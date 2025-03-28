@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install Mush
-        run: curl -fsSL https://get.javanile.org/mush | sh
+        run: printenv; curl -fsSL https://get.javanile.org/mush | sh
 
       - name: Verify Mush installation
         run: mush --version
