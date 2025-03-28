@@ -22,6 +22,8 @@ jobs:
         run: bash scripts/generate-leaderboard.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: 'Update README.md'
+        run: bash scripts/update-readme.sh
       - name: 'Commit Changes'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
