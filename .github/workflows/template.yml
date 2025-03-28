@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  HACKATHON_PACKAGE_NAME: hackathon
+  HACKATHON_PACKAGE_NAME: console
 
 jobs:
   install-mush:
