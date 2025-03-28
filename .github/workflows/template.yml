@@ -1,0 +1,22 @@
+name: Install Mush
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  HACKATHON_PACKAGE_NAME: hackathon
+
+jobs:
+  install-mush:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Mush
+        run: curl -fsSL https://get.javanile.org/mush | sh
+
+      - name: Verify Mush installation
+        run: mush --version
+
+      - name: Install Hackathon package
+        run: mush install ${HACKATHON_PACKAGE_NAME}
