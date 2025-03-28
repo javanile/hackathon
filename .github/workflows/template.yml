@@ -1,4 +1,4 @@
-name: Install Mush
+name: template
 
 on:
   push:
@@ -9,7 +9,7 @@ env:
   HACKATHON_PACKAGE_NAME: console
 
 jobs:
-  install-mush:
+  hackathon:
     runs-on: ubuntu-latest
     steps:
       - name: Install Mush

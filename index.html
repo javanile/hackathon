@@ -154,12 +154,8 @@
         // Simulated data fetch function
         function fetchData() {
             // Simulating an API call with setTimeout
-            setTimeout(() => {
-                const leaderboardData = [
-                    { rank: 1, projectName: "Disco Data Dancer 💃", stars: 250, cicdStatus: true },
-                    { rank: 2, projectName: "Chai Machine Learning 🍵", stars: 210, cicdStatus: true },
-                    { rank: 3, projectName: "Bollywood Backend Beats 🎵", stars: 180, cicdStatus: false }
-                ];
+            setTimeout(async () => {
+                const leaderboardData = await fetch('./data/leaderboard.json').then(res => res.json());
 
                 const hallOfFameData = [
                     { month: "January", year: 2024, projectName: "Masala Code Machine 🌶️" },
@@ -169,12 +165,15 @@
                 // Populate leaderboard
                 const leaderboardBody = document.getElementById('leaderboardBody');
                 leaderboardData.forEach(entry => {
+                    if (!entry.rank) return;
+                    const badge = "https://github.com/javanile/hackathon/actions/workflows/@francescobianco@matrix-theme.yml/badge.svg"
+                    const status = "https://github.com/javanile/hackathon/actions/workflows/@francescobianco@matrix-theme.yml"
                     const row = `
                         <tr>
                             <td>${entry.rank}</td>
-                            <td>${entry.projectName}</td>
+                            <td><a href="https://github.com/${entry.project}" target="_blank">${entry.project}</td>
                             <td>${entry.stars}</td>
-                            <td>${entry.cicdStatus ? '✅ Passed' : '❌ Not Passed'}</td>
+                            <td><a href="${status}" target="_blank"><img src="${badge}"></a></td>
                         </tr>
                     `;
                     leaderboardBody.innerHTML += row;
