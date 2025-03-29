@@ -38,6 +38,13 @@
             text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
         }
 
+        .header h2 {
+            color: #FF4500;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
         .header p {
             color: #FF1493;
             font-size: 1.2rem;
@@ -58,6 +65,20 @@
             margin-bottom: 20px;
         }
 
+        .button {
+            background-color: #FF4500;
+            border: none;
+            border-radius: 15px;
+            color: #FFF;
+            padding: 20px 30px;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            text-decoration: none;
+            background-color: #FF1493;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -96,6 +117,10 @@
             animation: spin 2s linear infinite;
         }
 
+        td img {
+            vertical-align: middle;
+        }
+
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
@@ -107,7 +132,16 @@
     <div id="content" style="display:none;" class="container">
         <div class="header">
             <h1>🌟 Hackathon Tamasha! 🚀</h1>
-            <p>Where Code Meets Creativity! 💻✨</p>
+            <p>Where DevOps Meets Creativity! 💻✨</p>
+            <p>🏆 Win <strong>10$</strong> by passing CI/CD and getting the most stars by the 14th! 💰</p>
+
+            <h2>How to Play</h2>
+            <p>Fork this repository and follow instructions</p>
+            <p>
+                <a href="https://github.com/javanile/mush-get-started/fork" class="button" target="_blank">
+                    🚀 Click Here to Fork
+                </a>
+            </p>
         </div>
 
         <div id="leaderboard" class="leaderboard">
@@ -144,7 +178,6 @@
         </div>
 
         <div class="notes">
-            <p>🏆 Win 100$ by passing CI/CD and getting the most stars by the 14th! 💰</p>
             <p>🕰️ Leaderboard updates daily at 20:00 London time</p>
             <p>💸 Instant payment on the day of victory!</p>
         </div>
@@ -157,17 +190,15 @@
             setTimeout(async () => {
                 const leaderboardData = await fetch('./data/leaderboard.json').then(res => res.json());
 
-                const hallOfFameData = [
-                    { month: "January", year: 2024, projectName: "Masala Code Machine 🌶️" },
-                    { month: "February", year: 2024, projectName: "Taj Mahal Tech 🏰" }
-                ];
+                const hallOfFameData = await fetch('./data/hall-of-fame.json').then(res => res.json());
 
                 // Populate leaderboard
                 const leaderboardBody = document.getElementById('leaderboardBody');
                 leaderboardData.forEach(entry => {
                     if (!entry.rank) return;
-                    const badge = "https://github.com/javanile/hackathon/actions/workflows/@francescobianco@matrix-theme.yml/badge.svg"
-                    const status = "https://github.com/javanile/hackathon/actions/workflows/@francescobianco@matrix-theme.yml"
+                    const job = '@'+entry.project.replace(/\//g, '@')+'.yml';
+                    const badge = `https://github.com/javanile/hackathon/actions/workflows/${job}/badge.svg`
+                    const status = `https://github.com/javanile/hackathon/actions/workflows/${job}`
                     const row = `
                         <tr>
                             <td>${entry.rank}</td>
@@ -186,7 +217,7 @@
                         <tr>
                             <td>${entry.month}</td>
                             <td>${entry.year}</td>
-                            <td>${entry.projectName}</td>
+                            <td>${entry.project}</td>
                         </tr>
                     `;
                     hallOfFameBody.innerHTML += row;
