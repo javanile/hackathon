@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  HACKATHON_PACKAGE_NAME: console
+  HACKATHON_PACKAGE_NAME: matrix-theme
 
 jobs:
   hackathon(template):
