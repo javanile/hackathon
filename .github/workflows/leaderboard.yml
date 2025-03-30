@@ -14,13 +14,13 @@ jobs:
   leaderboard:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Checkout Traffic'
+      - name: 'Checkout Hackathon'
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
       - name: 'Get Current UTC Time'
         run: echo "COMMIT_DATE=$(date -u '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
-      - name: 'Update Traffic'
+      - name: 'Generate Leaderboard'
         run: bash scripts/generate-leaderboard.sh
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
