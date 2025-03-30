@@ -18,6 +18,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GH_TOKEN }}
+      - name: 'Get Current UTC Time'
+        run: echo "COMMIT_DATE=$(date -u '+%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
       - name: 'Update Traffic'
         run: bash scripts/generate-leaderboard.sh
         env:
@@ -27,7 +29,7 @@ jobs:
       - name: 'Commit Changes'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Aggiornato workflow automaticamente"
+          commit_message: "Aggiornato workflow automaticamente - ${{ env.COMMIT_DATE }}"
           branch: main
           commit_user_name: "github-actions[bot]"
           commit_user_email: "github-actions[bot]@users.noreply.github.com"
