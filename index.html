@@ -139,12 +139,19 @@
       gtag('js', new Date());    
       gtag('config', 'AW-971072205');
     </script>
-    <!-- Event snippet for Visualizzazione di pagina conversion page -->
-    <script>
-      gtag('event', 'conversion', {
-          'send_to': 'AW-971072205/ofebCPvWjrQaEM3Fhc8D',
-          'value': 1.0,
-          'currency': 'EUR'
+    <!-- Event snippet for Visualizzazione di pagina conversion page -->    
+    <script>      
+      document.addEventListener('DOMContentLoaded', function () {
+        var link = document.getElementById('external-conversion-link');
+        if (link) {
+          link.addEventListener('click', function () {
+            gtag('event', 'conversion', {
+              'send_to': 'AW-971072205/ofebCPvWjrQaEM3Fhc8D',
+              'value': 1.0,
+              'currency': 'EUR'
+            });
+          });
+        }
       });
     </script>
 </head>
@@ -159,7 +166,7 @@
             <h2>How to Play</h2>
             <p>Fork this repository and follow instructions</p>
             <p>
-                <a href="https://github.com/javanile/mush-get-started/fork" class="button" target="_blank">
+                <a href="https://github.com/javanile/mush-get-started/fork" class="button" target="_blank" id="external-conversion-link">
                     Click Here to Fork
                 </a>
             </p>
