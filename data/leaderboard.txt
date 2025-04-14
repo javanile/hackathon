@@ -1,1 +1,1 @@
-1 francescobianco/matrix-theme
+3 francescobianco/matrix-theme
