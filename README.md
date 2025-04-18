@@ -13,7 +13,7 @@
 # 🌟 Hackathon Tamasha! 🚀
 
 [![Leaderboard](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--04--18%2009%3A29%3A10%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--04--18%2009%3A30%3A17%20UTC-blue)  
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
@@ -43,7 +43,7 @@ Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/
 Winners will be paid **instantly on the day of victory!**
 
 Need help or ready to claim your reward?
-- 📬 Open an issue in this repo
+- 📬 Open an [issue](https://github.com/javanile/hackathon/issues/new) in this repo
 - 📧 Or send us an [email](mailto:bianco@javanile.org)
 
 🕰️ *Leaderboard updates daily at 20:00 (London time)*
