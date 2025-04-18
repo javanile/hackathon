@@ -13,11 +13,12 @@
 # 🌟 Hackathon Tamasha! 🚀
 
 [![Leaderboard](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--04--18%2009%3A30%3A17%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--04--18%2009%3A32%3A41%20UTC-blue)  
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
 ## 🏆 Challenge & Win
+
 - Pass the CI/CD pipeline
 - Get the most GitHub ⭐ stars by the **14th of each month**
 - Win **$10 instantly**! 💰
@@ -40,6 +41,7 @@ Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/
 |----------|------|------------------------------------|
 | January  | 2024 | francescobianco/matrix-theme       |
 ## 💸 Claim Your Prize
+
 Winners will be paid **instantly on the day of victory!**
 
 Need help or ready to claim your reward?

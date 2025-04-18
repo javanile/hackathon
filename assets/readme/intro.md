@@ -2,6 +2,7 @@
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
 ## 🏆 Challenge & Win
+
 - Pass the CI/CD pipeline
 - Get the most GitHub ⭐ stars by the **14th of each month**
 - Win **$10 instantly**! 💰
