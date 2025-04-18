@@ -1,4 +1,4 @@
-## 💸 Claim Your Prize
+### 💸 Claim Your Prize
 
 Winners will be paid **instantly on the day of victory!**
 

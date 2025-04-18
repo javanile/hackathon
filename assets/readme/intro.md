@@ -1,13 +1,13 @@
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
-## 🏆 Challenge & Win
+### 🏆 Challenge & Win
 
 - Pass the CI/CD pipeline
 - Get the most GitHub ⭐ stars by the **14th of each month**
 - Win **$10 instantly**! 💰
 
-## 🎮 How to Play
+### 🎮 How to Play
 
 1. **Fork this repository**: 👉 [Click here to fork](https://github.com/javanile/mush-get-started/fork)
 
