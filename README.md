@@ -2,7 +2,7 @@
 
 
 <a href="https://www.javanile.org/hackathon/">
-<img src="https://www.javanile.org/hackathon/assets/images/header2.jpeg" />
+<img src="https://www.javanile.org/hackathon/assets/images/header3.jpeg" />
 </a>
 
 
@@ -13,8 +13,7 @@
 # 🌟 Hackathon Tamasha! 🚀
 
 [![Leaderboard](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--04--18%2009%3A19%3A37%20UTC-blue)  
-**💻 Where DevOps Meets Creativity! ✨**
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--04--18%2009%3A28%3A03%20UTC-blue)  
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
@@ -25,8 +24,7 @@ Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/
 
 ## 🎮 How to Play
 
-1. **Fork this repository**:  
-   👉 [Click here to fork](https://github.com/javanile/mush-get-started)
+1. **Fork this repository**: 👉 [Click here to fork](https://github.com/javanile/mush-get-started/fork)
 
 2. **Follow the instructions in the `README.md`** of your fork to set up your project.
 
