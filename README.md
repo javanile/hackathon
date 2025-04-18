@@ -2,7 +2,7 @@
 
 
 <a href="https://www.javanile.org/hackathon/">
-<img src="https://www.javanile.org/hackathon/assets/images/header3.jpeg" />
+<img src="https://www.javanile.org/hackathon/assets/images/header4.png" />
 </a>
 
 
@@ -13,7 +13,7 @@
 # 🌟 Hackathon Tamasha! 🚀
 
 [![Leaderboard](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--04--18%2009%3A32%3A41%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--04--18%2009%3A35%3A02%20UTC-blue)  
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
