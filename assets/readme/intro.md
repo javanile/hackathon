@@ -1,4 +1,3 @@
-**💻 Where DevOps Meets Creativity! ✨**
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
@@ -9,8 +8,7 @@ Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/
 
 ## 🎮 How to Play
 
-1. **Fork this repository**:  
-   👉 [Click here to fork](https://github.com/javanile/mush-get-started)
+1. **Fork this repository**: 👉 [Click here to fork](https://github.com/javanile/mush-get-started/fork)
 
 2. **Follow the instructions in the `README.md`** of your fork to set up your project.
 
