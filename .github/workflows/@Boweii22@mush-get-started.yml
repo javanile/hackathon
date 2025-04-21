@@ -1,0 +1,23 @@
+name: template
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  HACKATHON_PACKAGE_NAME: mush-get-started
+
+jobs:
+  hackathon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Mush
+        run: curl -fsSL https://get.javanile.org/mush | sh 
+             && mkdir -p ~/.local/bin/ && cp ~/.mush/bin/mush ~/.local/bin/
+
+      - name: Verify Mush installation
+        run: mush --version
+
+      - name: Install Hackathon package
+        run: mush install ${HACKATHON_PACKAGE_NAME}
