@@ -9,7 +9,7 @@ cat assets/readme/intro.md >> README.md
 
 echo "### 📊 Current Leaderboard" >> README.md
 echo "| Rank | Project                         | Stars ⭐ | CI/CD Status |" >> README.md
-echo "|------|----------------------------------|----------|---------------|" >> README.md
+echo "|:----:|---------------------------------|:-------:|--------------|" >> README.md
 rank=1
 sort -nr data/leaderboard.txt | while read -r line; do
   STARS=$(echo "$line" | awk '{print $1}')
