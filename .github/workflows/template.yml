@@ -26,7 +26,7 @@ jobs:
             echo "Please, rename your repository from "mush-get-started" to a devops tool name."
             echo "Visit this page <https://github.com/${HACKATHON_PACKAGE_NAME}/mush-get-started/settings>"
             exit 1
-         fi
+          fi
 
       - name: Install hackathon package
         run: mush install ${HACKATHON_PACKAGE_NAME}
