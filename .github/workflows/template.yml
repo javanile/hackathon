@@ -23,8 +23,8 @@ jobs:
       - name: Verify hackathon package name
         run: |
           if [ "${HACKATHON_PACKAGE_NAME}" = "mush-get-started" ]; then
-            echo "Please, rename your repository from "mush-get-started" to a devops tool name (eg. docker-stop-all, kubemix, etc...)."
-            echo "Visit this page <https://github.com/${HACKATHON_PACKAGE_USER}/mush-get-started/settings>"
+            echo "Please, rename your repository from 'mush-get-started' to a devops tool name (eg. docker-stop-all, kubemix, etc...)."
+            echo "Visit the settings page <https://github.com/${HACKATHON_PACKAGE_USER}/mush-get-started/settings>, than change 'Repository name'."
             exit 1
           fi
 
