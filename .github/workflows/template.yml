@@ -17,15 +17,16 @@ jobs:
         run: curl -fsSL https://get.javanile.org/mush | sh 
              && mkdir -p ~/.local/bin/ && cp ~/.mush/bin/mush ~/.local/bin/
 
-      - name: Verify Mush installation
+      - name: Verify installation
         run: mush --version
 
-      - name: Verify Mush installation
-        run: if [ "${HACKATHON_PACKAGE_NAME}" = "mush-get-started" ]; then
-                echo "Please, rename your repository from "mush-get-started" to a devops tool name."
-                echo "Visit this page <https://github.com/${HACKATHON_PACKAGE_NAME}/mush-get-started/settings>"
-                exit 1
-             fi
+      - name: Verify package name
+        run: |
+          if [ "${HACKATHON_PACKAGE_NAME}" = "mush-get-started" ]; then
+            echo "Please, rename your repository from "mush-get-started" to a devops tool name."
+            echo "Visit this page <https://github.com/${HACKATHON_PACKAGE_NAME}/mush-get-started/settings>"
+            exit 1
+         fi
 
-      - name: Install Hackathon package
+      - name: Install hackathon package
         run: mush install ${HACKATHON_PACKAGE_NAME}
