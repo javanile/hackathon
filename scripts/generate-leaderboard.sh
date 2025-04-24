@@ -13,9 +13,12 @@ for FORK in $(echo "$FORKS" | jq -r '.full_name'); do
     echo "Processing fork: $FORK, Stars: $STARS"
 
     WORKFLOW=".github/workflows/@${FORK//\//@}.yml"
+    PACKAGE_NAME="${FORK#*/}"
+    PACKAGE_USER="${FORK%%/*}"
     cp .github/workflows/template.yml "${WORKFLOW}"
-    #sed -i "s|name: template|name: ${FORK}|g" "${WORKFLOW}"
-    sed -i "s|PACKAGE_NAME: console|PACKAGE_NAME: ${FORK#*/}|g" "${WORKFLOW}"
+    sed -i "s|name: template|name: build|g" "${WORKFLOW}"
+    sed -i "s|PACKAGE_NAME: console|PACKAGE_NAME: ${PACKAGE_NAME}|g" "${WORKFLOW}"
+    sed -i "s|PACKAGE_USER: francescobianco|PACKAGE_USER: ${PACKAGE_USER}|g" "${WORKFLOW}"
     echo "${STARS} ${FORK}" >> data/leaderboard.txt
 done
 

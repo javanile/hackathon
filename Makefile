@@ -1,5 +1,4 @@
 
-
 release:
 	@bash scripts/generate-leaderboard.sh
 	@bash scripts/update-readme.sh

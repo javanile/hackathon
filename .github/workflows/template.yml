@@ -6,6 +6,7 @@ on:
       - main
 
 env:
+  HACKATHON_PACKAGE_USER: francescobianco
   HACKATHON_PACKAGE_NAME: console
 
 jobs:
@@ -18,6 +19,13 @@ jobs:
 
       - name: Verify Mush installation
         run: mush --version
+
+      - name: Verify Mush installation
+        run: if [ "${HACKATHON_PACKAGE_NAME}" = "mush-get-started" ]; then
+                echo "Please, rename your repository from "mush-get-started" to a devops tool name."
+                echo "Visit this page <https://github.com/${HACKATHON_PACKAGE_NAME}/mush-get-started/settings>"
+                exit 1
+             fi
 
       - name: Install Hackathon package
         run: mush install ${HACKATHON_PACKAGE_NAME}
