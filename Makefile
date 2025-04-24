@@ -9,3 +9,6 @@ release:
 
 test-generate-leaderboard:
 	@bash scripts/generate-leaderboard.sh
+
+test-update-readme:
+	@bash scripts/update-readme.sh
