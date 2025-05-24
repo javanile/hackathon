@@ -12,7 +12,7 @@
 
 # 🌟 Hackathon Tamasha! 🚀
 [![Leaderboard](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--05--23%2020%3A18%3A00%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--05--24%2020%3A16%3A24%20UTC-blue)  
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
@@ -34,13 +34,14 @@ Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/
 ### 📊 Current Leaderboard
 | Rank | Project                         | Stars ⭐ | CI/CD Status |
 |:----:|---------------------------------|:-------:|--------------|
-| 1 | [francescobianco/matrix-theme](https://github.com/francescobianco/matrix-theme) | 3 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@francescobianco@matrix-theme.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@francescobianco@matrix-theme.yml) |
+| 1 | [francescobianco/matrix-theme](https://github.com/francescobianco/matrix-theme) | 4 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@francescobianco@matrix-theme.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@francescobianco@matrix-theme.yml) |
 | 2 | [sparth510/mush-get-started](https://github.com/sparth510/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@sparth510@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@sparth510@mush-get-started.yml) |
 | 3 | [rohitshankar12/mush-get-started](https://github.com/rohitshankar12/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@rohitshankar12@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@rohitshankar12@mush-get-started.yml) |
 | 4 | [raj241-d/mush-get-started](https://github.com/raj241-d/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@raj241-d@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@raj241-d@mush-get-started.yml) |
 | 5 | [ISWARYA-hash8/mush-get-started](https://github.com/ISWARYA-hash8/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@ISWARYA-hash8@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@ISWARYA-hash8@mush-get-started.yml) |
 | 6 | [Boweii22/mush-get-started](https://github.com/Boweii22/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Boweii22@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Boweii22@mush-get-started.yml) |
 | 7 | [Azli45/mush-get-started](https://github.com/Azli45/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Azli45@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Azli45@mush-get-started.yml) |
+| 8 | [swapnilAx/mush-get-started](https://github.com/swapnilAx/mush-get-started) | 0 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@swapnilAx@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@swapnilAx@mush-get-started.yml) |
 ### 🏅 Hall of Fame
 | Month    | Year | Winning Project                   |
 |----------|------|------------------------------------|
