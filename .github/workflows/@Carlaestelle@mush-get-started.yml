@@ -1,0 +1,32 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  HACKATHON_PACKAGE_USER: Carlaestelle
+  HACKATHON_PACKAGE_NAME: mush-get-started
+
+jobs:
+  hackathon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Mush
+        run: curl -fsSL https://get.javanile.org/mush | sh 
+             && mkdir -p ~/.local/bin/ && cp ~/.mush/bin/mush ~/.local/bin/
+
+      - name: Verify installation
+        run: mush --version
+
+      - name: Verify hackathon package name
+        run: |
+          if [ "${HACKATHON_PACKAGE_NAME}" = "mush-get-started" ]; then
+            echo "Please, rename your repository from 'mush-get-started' to a devops tool name (eg. docker-stop-all, kubemix, etc...)."
+            echo "Visit the settings page <https://github.com/${HACKATHON_PACKAGE_USER}/mush-get-started/settings>, than change 'Repository name'."
+            exit 1
+          fi
+
+      - name: Install hackathon package
+        run: mush install ${HACKATHON_PACKAGE_NAME}
