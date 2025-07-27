@@ -12,7 +12,7 @@
 
 # 🌟 Hackathon Tamasha! 🚀
 [![Leaderboard](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2025--07--26%2020%3A17%3A57%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2025--07--27%2020%3A18%3A40%20UTC-blue)  
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
@@ -48,6 +48,7 @@ Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/
 | 12 | [Azli45/mush-get-started](https://github.com/Azli45/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Azli45@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Azli45@mush-get-started.yml) |
 | 13 | [Ashish-Soni08/mush-get-started](https://github.com/Ashish-Soni08/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Ashish-Soni08@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Ashish-Soni08@mush-get-started.yml) |
 | 14 | [Anshulmehra001/mush-get-started](https://github.com/Anshulmehra001/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Anshulmehra001@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Anshulmehra001@mush-get-started.yml) |
+| 15 | [MayankOps/docker-cleanup](https://github.com/MayankOps/docker-cleanup) | 0 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@MayankOps@docker-cleanup.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@MayankOps@docker-cleanup.yml) |
 ### 🏅 Hall of Fame
 | Month    | Year | Winning Project                   |
 |----------|------|------------------------------------|
