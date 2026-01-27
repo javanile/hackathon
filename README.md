@@ -12,7 +12,7 @@
 
 # 🌟 Hackathon Tamasha! 🚀
 [![Leaderboard](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2026--01--26%2020%3A23%3A42%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2026--01--27%2020%3A19%3A49%20UTC-blue)  
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
