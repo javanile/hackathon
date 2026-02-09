@@ -12,7 +12,7 @@
 
 # 🌟 Hackathon Tamasha! 🚀
 [![Leaderboard](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2026--02--08%2020%3A23%3A15%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2026--02--09%2020%3A35%3A27%20UTC-blue)  
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
@@ -40,12 +40,11 @@ Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/
 | 4 | [swapnilAx/mush-get-started](https://github.com/swapnilAx/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@swapnilAx@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@swapnilAx@mush-get-started.yml) |
 | 5 | [sparth510/mush-get-started](https://github.com/sparth510/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@sparth510@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@sparth510@mush-get-started.yml) |
 | 6 | [raj241-d/mush-get-started](https://github.com/raj241-d/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@raj241-d@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@raj241-d@mush-get-started.yml) |
-| 7 | [MayankOps/docker-cleanup](https://github.com/MayankOps/docker-cleanup) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@MayankOps@docker-cleanup.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@MayankOps@docker-cleanup.yml) |
-| 8 | [ISWARYA-hash8/mush-get-started](https://github.com/ISWARYA-hash8/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@ISWARYA-hash8@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@ISWARYA-hash8@mush-get-started.yml) |
-| 9 | [DHARSHAN333/mush-get-started](https://github.com/DHARSHAN333/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@DHARSHAN333@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@DHARSHAN333@mush-get-started.yml) |
-| 10 | [Carlaestelle/mush-get-started](https://github.com/Carlaestelle/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Carlaestelle@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Carlaestelle@mush-get-started.yml) |
-| 11 | [Boweii22/mush-get-started](https://github.com/Boweii22/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Boweii22@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Boweii22@mush-get-started.yml) |
-| 12 | [Azli45/mush-get-started](https://github.com/Azli45/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Azli45@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Azli45@mush-get-started.yml) |
+| 7 | [ISWARYA-hash8/mush-get-started](https://github.com/ISWARYA-hash8/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@ISWARYA-hash8@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@ISWARYA-hash8@mush-get-started.yml) |
+| 8 | [DHARSHAN333/mush-get-started](https://github.com/DHARSHAN333/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@DHARSHAN333@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@DHARSHAN333@mush-get-started.yml) |
+| 9 | [Carlaestelle/mush-get-started](https://github.com/Carlaestelle/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Carlaestelle@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Carlaestelle@mush-get-started.yml) |
+| 10 | [Boweii22/mush-get-started](https://github.com/Boweii22/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Boweii22@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Boweii22@mush-get-started.yml) |
+| 11 | [Azli45/mush-get-started](https://github.com/Azli45/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Azli45@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Azli45@mush-get-started.yml) |
 ### 🏅 Hall of Fame
 | Month    | Year | Winning Project                   |
 |----------|------|------------------------------------|
