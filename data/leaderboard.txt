@@ -7,5 +7,4 @@
 1 sparth510/mush-get-started
 1 raj241-d/mush-get-started
 1 Boweii22/mush-get-started
-1 Azli45/mush-get-started
 4 francescobianco/matrix-theme
