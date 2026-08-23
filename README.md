@@ -12,7 +12,7 @@
 
 # 🌟 Hackathon Tamasha! 🚀
 [![Leaderboard](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/leaderboard.yml)
-![Last Update](https://img.shields.io/badge/Last%20Update-2026--08--22%2020%3A17%3A36%20UTC-blue)  
+![Last Update](https://img.shields.io/badge/Last%20Update-2026--08--23%2020%3A17%3A39%20UTC-blue)  
 
 Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/CD into a game and rewards your creativity with real prizes!
 
@@ -45,6 +45,7 @@ Welcome to **Hackathon Tamasha**, the continuous DevOps challenge that turns CI/
 | 9 | [Carlaestelle/mush-get-started](https://github.com/Carlaestelle/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Carlaestelle@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Carlaestelle@mush-get-started.yml) |
 | 10 | [Boweii22/mush-get-started](https://github.com/Boweii22/mush-get-started) | 1 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@Boweii22@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@Boweii22@mush-get-started.yml) |
 | 11 | [ingchrist/mush-get-started](https://github.com/ingchrist/mush-get-started) | 0 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@ingchrist@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@ingchrist@mush-get-started.yml) |
+| 12 | [aymn10/mush-get-started](https://github.com/aymn10/mush-get-started) | 0 | [![Status](https://github.com/javanile/hackathon/actions/workflows/@aymn10@mush-get-started.yml/badge.svg)](https://github.com/javanile/hackathon/actions/workflows/@aymn10@mush-get-started.yml) |
 ### 🏅 Hall of Fame
 | Month    | Year | Winning Project                   |
 |----------|------|------------------------------------|
